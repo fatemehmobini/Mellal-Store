@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماشین های اداری ملل</title>
+
+    <link rel="icon" type="image/x-icon" href="pic/print.ico">
+<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css"> 
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.bundle.js" ></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/poopper.min.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+   <style>
+      ::selection
+      {
+        background-color:rgb(0, 255, 179)	
+      }
+        .carosuel-inner img
+        {
+          width: 100%;
+          height: 100%;
+        }
+        .carousel slide
+        {
+            margin: 40px 40px;
+        }
+      </style>
+<script>
+function checkblk()
+{
+  let username;
+let email;
+let password;
+let password2;
+let city;
+let phone;
+let adress;
+username=document.getElementById("username").value;
+email=document.getElementById("email").value;
+password=document.getElementById("pwd").value;
+password2=document.getElementById("pwd2").value;
+phone=document.getElementById("phone").value;
+adress=document.getElementById("address").value;
+codeposti=document.getElementById("code").value;
+  if(username==""||email==""||password==""||password2==""||city==""||phone==""||adress==""||codeposti=="")
+  {
+    window.alert("لطفا اطلاعات خود را دقیق و کامل وارد نمایید")
+  }
+ 
+ 
+  if(password!==password2)
+{
+  window.alert(".گذرواژه ها یکسان نیست");
+}
+
+  else
+{
+let result=confirm("آیا از ثبت اطلاعات خود مطمئن هستید؟")
+if(result==true)
+{
+  document.former.submit();
+}
+}
+
+
+  }
+  </script>
+
+</head>
+
+<body  dir="rtl"  style="background-color:rgb(249, 246, 242);">
+   
+    <div class="jumbotron text-center" style="height: 150px;;margin-bottom: 0; background-color:#FAEBD7 ;border:3px inset purple;" !important data-aos="zoom-out-down">
+        <h1 style="font-family:Andale Mono;color: rgb(0, 166, 255)	;"><b> ماشین های اداری ملل </b></h1>
+      </div>
+      
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" ; style=" width:100%;position:sticky;top:0;z-index:15;" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav"  style ="width: 100%; padding: 0px 40px; text-align: center;">
+            <li class="nav-item" style="width:20%;">
+              <a class="nav-link" href="http://localhost/pvman/index2.php# target="_blank">صفحه اصلی</a>
+            </li>
+            <li class="nav-item" style="width:20%" >
+              <a class="nav-link" href="http://localhost/pvman/sabt.php#" target="_blank">عضویت </a>
+            </li>
+            <li class="nav-item" style="width:20%">
+              <a class="nav-link" href="http://localhost/pvman/action-regist.php"target="_blank">ورود</a>
+            </li>   
+            <li class="nav-item" style="width:20%">
+            <a class="nav-link" href="http://localhost/pvman/asli2.php" target="_blank"">فروشگاه</a>
+            </li>
+            <li class="nav-item" style="width:20%">
+            <a class="nav-link" href="http://localhost/pvman/about.php" target="_blank">درباره ی ما</a>     
+          </ul>
+
+      </nav>
+      
+
+

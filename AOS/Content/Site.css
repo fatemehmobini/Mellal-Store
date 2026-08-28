@@ -1,0 +1,40 @@
+﻿body {
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+/*div {
+    width: 400px;
+    height: 300px;
+    background-color: #11abb5;
+    margin: 30px;
+    padding: 30px;
+}*/
+#go {
+    width: 100%;
+    height: 900px;
+    background-color: #116b7f;
+    color:#fff;
+    margin:20px;
+    padding:20px;
+    font-family:'Comic Sans MS';
+    font-size:40px;
+    text-align:center;
+    
+}
